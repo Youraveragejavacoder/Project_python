@@ -6,7 +6,7 @@ def main():
     app = QApplication([])
     db = Database()
     ui = GradingSystemUI(db)
-    ui.showFullScreen()
+    ui.showFullScreen()  # Start in fullscreen
     app.exec()
 
 if __name__ == "__main__":
